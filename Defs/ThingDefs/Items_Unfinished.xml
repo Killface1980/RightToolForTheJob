@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="UnfinishedBase" Abstract="True">
+    <thingClass>UnfinishedThing</thingClass>
+    <category>Item</category>
+    <label>unfinished thing</label>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedSculpture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <useHitPoints>true</useHitPoints>
+    <isUnfinishedThing>true</isUnfinishedThing>
+    <selectable>true</selectable>
+    <tradeability>Never</tradeability>
+    <drawerType>RealtimeOnly</drawerType>
+    <!-- For CompForbiddable -->
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories>
+      <li>Unfinished</li>
+    </thingCategories>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+  </ThingDef>
+
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedWheelChair</defName>
+    <label>Unfinished wheel chair</label>
+    <graphicData>
+      <texPath>Things/Vehicles/VehicleSmackWay/SmackWay</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedCart</defName>
+    <label>Unfinished cart</label>
+    <graphicData>
+      <texPath>Things/Vehicles/VehicleCart/Cart</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedATV</defName>
+    <label>Unfinished ATV</label>
+    <graphicData>
+      <texPath>Things/Vehicles/VehicleATV/ATV</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedTruck</defName>
+    <label>Unfinished truck</label>
+    <graphicData>
+      <texPath>Things/Vehicles/VehicleTruck/Truck</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedSpeeder</defName>
+    <label>Unfinished speeder</label>
+    <graphicData>
+      <texPath>Things/Vehicles/VehicleSpeeder/Speeder</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+  </ThingDef>
+
+
+  
+</Defs>

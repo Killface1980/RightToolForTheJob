@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingCategoryDefs>
+
+  <ThingCategoryDef>
+    <defName>Loadout</defName>
+    <label>Backpacks and Loadout</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>Backpacks</defName>
+    <label>backpacks</label>
+    <parent>Loadout</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>Toolbelts</defName>
+    <label>toolbelts</label>
+    <parent>Loadout</parent>
+  </ThingCategoryDef>
+  
+</ThingCategoryDefs>

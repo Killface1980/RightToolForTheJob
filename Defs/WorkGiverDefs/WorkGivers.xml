@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+
+    <!-- ============= Repair ============= -->
+  
+  <!--
+
+    <defName>RepairVehicles</defName>
+    <label>repair damaged things</label>
+    <giverClass>ToolsForHaul.WorkGiver_RepairVehicles</giverClass>
+    <workType>Repair</workType>
+    <priorityInType>5</priorityInType>
+    <verb>repair</verb>
+    <gerund>repairing</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <canBeDoneByNonColonists>true</canBeDoneByNonColonists>
+  </WorkGiverDef>
+-->
+  <!--
+    <WorkGiverDef>
+    <defName>TakeToWheelChair</defName>
+    <label>take an immovable pawn to a wheel chair</label>
+    <giverClass>ToolsForHaul.WorkGiver_TakeToWheelChair</giverClass>
+    <workType>Doctor</workType>
+    <verb>take</verb>
+    <gerund>taking</gerund>
+    <priorityInType>60</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  -->
+  <!-- ============= Hunting ============= -->
+
+  <!--
+  <WorkGiverDef>
+    <defName>HunterHuntWithVehicle</defName>
+    <label>hunt</label>
+    <giverClass>ToolsForHaul.WorkGivers.WorkGiver_HunterHuntWithVehicle</giverClass>
+    <workType>Hunting</workType>
+    <priorityInType>500</priorityInType>  
+    <verb>hunt</verb>
+    <gerund>hunting</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>HunterHunt</defName>
+    <label>hunt</label>
+    <giverClass>WorkGiver_HunterHunt</giverClass>
+    <workType>Hunting</workType>
+    <priorityInType>350</priorityInType>
+    <verb>hunt</verb>
+    <gerund>hunting</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  -->
+
+
+  <!-- ============= Hauling ============= -->
+
+  <WorkGiverDef>
+    <defName>EquipTools</defName>
+    <giverClass>ToolsForHaul.WorkGivers.WorkGiver_EquipTools</giverClass>
+    <workType>Flicker</workType>
+    <priorityInType>350</priorityInType>
+    <verb>equip with</verb>
+    <gerund>equipping with</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  
+  <WorkGiverDef>
+    <defName>HaulWithBackpack</defName>
+    <giverClass>ToolsForHaul.WorkGivers.WorkGiver_HaulWithBackpack</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>43</priorityInType>
+    <scanThings>true</scanThings>
+    <verb>haul with backpack</verb>
+    <gerund>hauling with backpack</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+</WorkGivers>
